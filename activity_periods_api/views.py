@@ -12,6 +12,6 @@ def work_view(self):
   response_data = {}
   members = Member.objects.all()
   response_data['ok'] = True
-  response_data['member'] = MemberSerializer(members, many = True).data
+  response_data['members'] = MemberSerializer(members, many = True).data
   
   return Response(response_data, status = status.HTTP_200_OK)
