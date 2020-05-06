@@ -29,7 +29,7 @@ dephell-shells==0.1.4
 dephell-specifier==0.2.2
 dephell-venvs==0.1.17
 dephell-versioning==0.1.1
-Django==3.0.2
+Django==3.0.3
 djangorestframework==3.11.0
 docker==4.2.0
 dockerpty==0.4.1
@@ -38,7 +38,6 @@ docutils==0.16
 fissix==19.2b1
 Flask==1.1.2
 future==0.18.2
-glfw==1.11.0
 greenlet==0.4.15
 html5lib==1.0.1
 idna==2.9
@@ -86,7 +85,6 @@ python-dateutil==2.8.1
 python-jsonrpc-server==0.3.4
 python-language-server==0.21.5
 pytz==2019.3
-pyxel @ git+https://github.com/amasad/pyxel@8bcc2266b2fbb65f72ad686952de3838971c136e
 PyYAML==5.3.1
 regex==2020.4.4
 requests==2.23.0
